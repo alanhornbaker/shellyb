@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./images/bee-logo.avif";
+import "./App.css";
+import Navbar from "./compenents/Navbar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>ShellyB</p>
+        <div className="auth-nav">
+          <button type="button" class="icon-button">
+            <img src="path/to/image" alt="Logo" />
+          </button>
+          <button type="button" class="icon-button">
+            <img src="path/to/image" alt="Logo" />
+          </button>
+        </div>
       </header>
     </div>
   );
